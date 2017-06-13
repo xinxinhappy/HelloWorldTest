@@ -1,0 +1,15 @@
+{
+    "name": "xinxinhappy/hellowordtest",
+    "description": "This a demo for build composer packagist .",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tools\\HelloWorld\\": "src/Tools/HelloWorld"
+        }
+    }
+}
