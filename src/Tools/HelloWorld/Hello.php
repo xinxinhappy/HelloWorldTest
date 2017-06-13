@@ -12,6 +12,6 @@ class Hello
 {
     public static function info()
     {
-        echo "Hello World<br />";
+        echo "Hello World";
     }
 }
